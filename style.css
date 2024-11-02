@@ -20,6 +20,9 @@
     background-color: #f44336; color: #fff;
 }
 
+.btn:hover { transform: scale(1.05); }
+.btn:active { transform: scale(0.98); }
+
 .accordion {
     width: 100%;
     border: 1px solid #ccc;
