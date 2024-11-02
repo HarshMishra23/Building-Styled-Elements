@@ -43,6 +43,11 @@
     /* transition: max-height 0.3s ease, opacity 0.3s ease; */
 }
 
+.accordion-item.active .accordion-content {
+    display: block;
+    opacity: 1;
+}
+
 .badge {
     padding: 5px 10px;
     font-size: 14px;
