@@ -19,3 +19,45 @@
 .btn.denger {
     background-color: #f44336; color: #fff;
 }
+
+.accordion {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.accordion-header{
+    padding: 15px;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition:  background-color 0.3s;
+}
+
+/* .accordion-header:hover { background-color: #e0e0e0; } */
+
+.accordion-content{
+    padding: 15px;
+    display: none;
+    border-top: 1px solid #ddd;
+    /* transition: max-height 0.3s ease, opacity 0.3s ease; */
+}
+
+.badge {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 12px;
+    color: #fff;
+    display: inline-block;
+    transition: box-shadow 0.2s;
+}
+
+
+.badge.success { background-color: #4CAF50; }
+.badge.warning { background-color: #FFC107; }
+.badge.error { background-color: #F44336; }
+
+
+.badge:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
